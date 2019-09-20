@@ -18,7 +18,7 @@ class CubeMaker extends CuboidMaker {
     constructor(cubeAttributes){
         super(cubeAttributes)
         this.checkIfCube = this.length === this.width && this.length === this.height;
-        this.notCubeAlert = `This is not a cube. This is a cuboid!`;
+        this.notCubeAlert = `This is not a cube. This is a cuboid! Call Volume() or SurfaceArea() instead!`;
     }
     cubeVolume(){
         if (this.checkIfCube) {
