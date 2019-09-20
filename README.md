@@ -39,6 +39,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. Describe the four rules of the 'this' keyword.
     A: 
+    
         - Window Binding: when 'this' is the window object. This happens when 'this' is called in the global scope
 
         -Implicit binding: when 'this' is the object preceeding the dot
